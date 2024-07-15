@@ -1,0 +1,16 @@
+.footer {
+  background-color: #000000e5;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px 0px;
+  border-top: 3px solid var(--color-azul);
+  box-shadow: 0px 0px 10px 0px var(--color-azul);
+}
+
+@media (max-width: 480px) {
+  .footer {
+    display: none;
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "aluraflix",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Challenge Aluraflix",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "json-server --watch ./src/data/CardsData.json --port 3000",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmariajesus/aluraflix.git"
+  },
+  "author": "Maria Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shmariajesus/alurageek/issues"
+  },
+  "homepage": "https://github.com/shmariajesus/alurageek#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.24.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "prettier": "3.3.2",
+    "vite": "^5.3.1"
+  }
+}

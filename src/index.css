@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Source Sans Pro;
+  src: url(./fonts/source-sans-pro/webfonts/source-sans-pro-latin-600-normal.woff);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Source Sans Pro;
+  src: url(./fonts/source-sans-pro/webfonts/source-sans-pro-latin-900-normal.woff);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/roboto/webfonts/roboto-latin-300-normal.woff);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/roboto/webfonts/roboto-latin-400-normal.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/roboto/webfonts/roboto-latin-900-normal.woff);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/roboto/webfonts/roboto-latin-700-normal.woff);
+  font-weight: 800;
+  font-style: normal;
+}
+
+:root {
+  --padding: 0px 40px;
+  --items-padding: 40px;
+  --color-front: #6bd1ff;
+  --color-back: #00c86f;
+  --color-innovación-gestión: #ffba05;
+  --color-azul: #2271d1;
+  --font-sans-pro: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-color: #000000e5;
+  font-family: 'Roboto', sans-serif;
+}

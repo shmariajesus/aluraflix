@@ -1,0 +1,79 @@
+.container {
+  position: fixed;
+  background-color: #03122fc2;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #03122f;
+  border: 3px solid #6bd1ff;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  padding: 30px 50px;
+  position: relative;
+}
+
+.title {
+  font-size: 28px;
+  text-align: left;
+}
+
+.exitIcon {
+  width: 40px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.iframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 10px;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.information {
+  font-size: 20px;
+  text-wrap: balance;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 10px 50px;
+  }
+}
